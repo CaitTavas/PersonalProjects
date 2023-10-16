@@ -1,56 +1,20 @@
+<!DOCTYPE html>
+
 <html>
     <head>
-        <style>
-            head{
-                margin:0px;
-            }
-            #indexhead {
-                background: #89CFF0; 
-                margin:0px;
-                padding-top: 10px; 
-                text-align:center; 
-                font-size: 20px; 
-                color:white;
-                border:1px solid;
-                border-color: black;
-                /* position:absolute; */
-                top: -30px; 
-                width:100%;
-            }
-            nav{
-                background: #6caeed;
-                padding:0px;
-                margin:0px;
-            }
-            body {
-                position: absolute; 
-                width:100%;
-
-            }
-            .lineofdiv{
-                width:100%;
-            }
-            .leftdiv{
-                float: left;
-                width:50%;
-            }
-            .rightdiv{
-                float:right;
-                width:50%;
-            }
-            
-        </style>
+        <link rel="stylesheet" href="style.css">
     </head>
-    <header id="indexhead">
-        Caitlin Tavas
-        <nav>
-            <ul>
-                <li><a></a></li>
-            </ul>
-        </nav>
-    </header>
-    <body style="padding:0px; margin:0px;">
+    <body>
+        <header id="indexhead">
+            <p><a href="index.html">Caitlin Tavas</a></p>
+            <nav>
+                <a href="Projects.html">Projects</a>
+                <a href="#links">Links</a>
+            </nav>
+        </header>
+        <div class="content">
         <!-- include personal photo here: -->
+        <img src="images/color scheme.jpg" alt="Color schema">
         <h1>Personal Summary</h1>
         <ul>
             <li>My name is Caitlin Tavas and I am senior in Information Science concentrating in Data Science and Behavioral Science. I also have a minor in East Asian Studies.</li>
@@ -104,7 +68,7 @@
         <div class="leftdiv">
             <p>Skills</p>
         </div>
-        
-        <p>Links</p>
+        <div id="Links"><p>Links</p></div>
+        </div>
     </body>
 </html>
